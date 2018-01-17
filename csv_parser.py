@@ -23,11 +23,11 @@ Does some word preprocessing during the parsing.
 # df.SentimentText = df.SentimentText.str.replace('&lt;', ' < ')
 
 try:
-    full_dataset = open("twitter-sentiment-dataset/sentiment-dataset.csv", "r")
-    pos_dataset = open("twitter-sentiment-dataset/tw-data.pos", "w")
-    neg_dataset = open("twitter-sentiment-dataset/tw-data.neg", "w")
+    full_dataset = open("./sentiment-dataset.csv", "r")
+    pos_dataset = open("./tw-data.pos", "w")
+    neg_dataset = open("./tw-data.neg", "w")
 except IOError:
-    print "Failed to open file"
+    print ("Failed to open file")
     quit()
 
 csv_lines = full_dataset.readlines()

@@ -10,7 +10,7 @@ sometimes, so `dataset_downloader.py` **might** not work. I successfully
 ran the script on September 10, 2016, but feel free to contact me if
 you have any problems).
 
-**NOTE: this script is for Python 2.7 only**
+**NOTE: this script is for Python 3 only**
 
 
 ## Setup

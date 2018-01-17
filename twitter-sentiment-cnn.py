@@ -11,7 +11,7 @@ from tqdm import tqdm
 def log(*string, **kwargs):
     output = ' '.join(string)
     if kwargs.pop('verbose', True):
-        print output
+        print (output)
     LOG_FILE.write(''.join(['\n', output]))
 
 
